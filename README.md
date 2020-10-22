@@ -13,3 +13,9 @@ Link to paper: http://www.eng.tau.ac.il/~avidan/papers/FastMatch_cvpr_2013.pdf
 ```
 > FAsT-Match <path-to-image> <path-to-template>
 ```
+
+## Some results
+| Original | Affine transformed | Template | Mapping |
+| ------ | ------ | ------ | ------ |
+| ![original](https://github.com/vinhtq115/FAsT-Match/raw/master/images/0001.jpg "Original image") | ![Affine transformed](https://github.com/vinhtq115/FAsT-Match/raw/master/images/0001-affined.jpg "Affined image") | ![Template](https://github.com/vinhtq115/FAsT-Match/raw/master/images/0001-template.jpg "Template") | ![Mapping](https://github.com/vinhtq115/FAsT-Match/raw/master/images/0001-mapping.jpg "Mapping") |
+| ![original](https://github.com/vinhtq115/FAsT-Match/raw/master/images/0002.jpg "Original image") | ![Affine transformed](https://github.com/vinhtq115/FAsT-Match/raw/master/images/0002-affined.jpg "Affined image") | ![Template](https://github.com/vinhtq115/FAsT-Match/raw/master/images/0002-template.jpg "Template") | ![Mapping](https://github.com/vinhtq115/FAsT-Match/raw/master/images/0002-mapping.jpg "Mapping") |

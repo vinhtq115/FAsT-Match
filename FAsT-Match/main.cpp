@@ -19,8 +19,8 @@ using namespace cv;
 
 int main(int argc, const char * argv[])
 {
-	if (argc != 3) {
-		cout << "Error. Must have at least 2 arguments.\nFAsT-Match.exe <path-to-image> <path-to-template>" << endl;
+	if (argc != 4) {
+		cout << "Error. Must have at least 3 arguments.\nFAsT-Match.exe <path-to-image> <path-to-template> <path-to-save-mapping>" << endl;
 		return -1;
 	}
 	
@@ -45,5 +45,6 @@ int main(int argc, const char * argv[])
 	imshow("Mapping", image);
 
 	waitKey(0);
+	imwrite(argv[3], image);
 }
 
