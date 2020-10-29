@@ -9,7 +9,7 @@ Link to paper: http://www.eng.tau.ac.il/~avidan/papers/FastMatch_cvpr_2013.pdf
 | OpenCV | 4.5.0 |
 | Intel TBB | 2020.3 |
 
-## Dataset
+## Dataset and mapping results
 [Link](https://drive.google.com/file/d/172cyQCyTDvdC6ylzAS3xwR-PGAnDhjcT/view?usp=sharing)
 
 ## How to run
